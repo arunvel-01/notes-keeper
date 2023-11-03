@@ -1,13 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from "./components/App.jsx"
+// Import the necessary modules from React and ReactDOM
+import React from "react";
+import ReactDOM from "react-dom";
 
+// Import the main component of the application, App
+import App from "./components/App";
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <div>
-  <App />
-  </div>
-);
-
+// Render the App component into the root element of the HTML document
+ReactDOM.render(<App />, document.getElementById("root"));
